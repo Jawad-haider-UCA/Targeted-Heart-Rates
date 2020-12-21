@@ -38,8 +38,7 @@ public class TargetedHeartRatesController implements Initializable {
     @FXML
     void calculateButtonPressed(ActionEvent event) {
         try{
-            Double maxHeartRate;
-            //Double age= new Double(ageTextField.setText());
+            Double maxHeartRate;          
             Double age = new Double(ageTextField.getText());
 
             Double lowerRange;
