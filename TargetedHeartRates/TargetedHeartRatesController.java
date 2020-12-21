@@ -53,7 +53,6 @@ public class TargetedHeartRatesController implements Initializable {
             targetHeartRateRangeTextField.setText(String.format("%.2f-%.2f",lowerRange,upperRange));
         }
         catch (NumberFormatException nf){
-//            weightTextField.setText("Enter valid value");
             ageTextField.setText("Enter a Valid age;)");
             ageTextField.selectAll();
             ageTextField.requestFocus();
